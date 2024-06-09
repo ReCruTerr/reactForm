@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body { 
+   background-color: #DCDCDC;
+   font-family: "Inter", sans-serif;
+}
+.Logo { 
+   max-width: 700px;
+   width: 100%;
+   max-height: 800px;
+   height: 100%;
+}
+header { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.mainCont {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 1019px;
+  height: 100%;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.container2 {
+  max-width: 454px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.googleLink{ 
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   width: 100%;
+   font-family: "Inter", sans-serif;
+   font-weight: 600;
+   border: 1px solid #E3E3E3;
+   border-radius: 15px;
+   text-decoration: none;
+   color: #344054;
+   font-size: 18px;
+
+}
+input::placeholder { 
+   font-size: 14px;
+   font-weight: 500;
+   opacity: 0.8;
+   padding-left: 18px;
+}
+.Or{
+  font-size: 11px;
+  color: #DCDCDC;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+.container2 ul { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   list-style-type: none;
+}
+.uList {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+   list-style-type: none;
+}
+li:first-child { 
+   max-width: 227px;
+   width: 100%;
+   min-height: 1px;
+   background-color: #F0F2F5;
+}
+li:last-child { 
+   max-width: 227px;
+   width: 100%;
+   min-height: 1px;
+   background-color: #F0F2F5;
+}
+.container2 h2 { 
+   text-align: center;
+   font-size: 36px;
+   color: #1B1818;
+}
+.createAccountForm {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+}
+.createAccountForm input { 
+   border: 1px solid #E3E3E3;
+   border-radius: 15px;
+   color: #344054;
+   min-height: 56px;
+   font-size: 15px;
+   cursor: text;
+
+}
+.errrorName {
+  color: #E50000;
+  margin-left: 10px;
+}
+input:focus { 
+   outline: none;
+}
+label { 
+   color: #101928;
+   font-size: 14px;
+   font-weight: 700;
+}
+.save { 
+   display: flex;
+   flex-direction: column;
+}
+button { 
+   background-color: #EB5017;
+   width: 100%;
+   min-height: 56px;
+   color: white;
+   font-size: 17px;  
+   border:1px solid #CD3700;
+   border-radius: 8px;
+   cursor:pointer;
+   transition: all ease-in-out 0.2s;
+}
+button:hover { 
+   opacity: 0.8;
+}
+.logInLink {
+  max-width: 49px;
+  min-height: 20px;
+  text-decoration: none;
+  color: #EB5017;
+}
+.save span { 
+   margin-top: 20px;
+   text-align: center;
+}

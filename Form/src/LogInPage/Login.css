@@ -1,0 +1,43 @@
+body { 
+   background-color: #DCDCDC;
+   font-family: "Inter", sans-serif;
+}
+.Logo { 
+   max-width: 700px;
+   width: 100%;
+   max-height: 800px;
+   height: 100%;
+}
+.mainCont {
+      max-width: 1440px;
+      width: 100%;
+      min-height: 1019px;
+      height: 100%;
+      border-radius: 20px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+    
+}
+.container2 {
+   max-width: 454px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+input::placeholder { 
+   font-size: 14px;
+   font-weight: 500;
+   opacity: 0.8;
+   padding-left: 18px;
+}
+input { 
+   border: 1px solid #E3E3E3;
+   border-radius: 15px;
+   color: #344054;
+   min-height: 56px;
+   font-size: 15px;
+   cursor: text;
+}
